@@ -1,5 +1,7 @@
 # Rack::IpAddressRestriction
 
+[![Build Status](https://travis-ci.org/koshigoe/rack-ip_address_restriction.svg?branch=master)](https://travis-ci.org/koshigoe/rack-ip_address_restriction)
+
 ## Installation
 
 Add this line to your application's Gemfile:
