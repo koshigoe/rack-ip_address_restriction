@@ -1,7 +1,7 @@
 require "rack/ip_address_restriction/version"
 
 module Rack
-  module IpAddressRestriction
+  class IpAddressRestriction
     # Your code goes here...
   end
 end
