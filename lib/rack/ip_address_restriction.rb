@@ -28,7 +28,7 @@ module Rack
       mapping = config.map do |location, ip_masks|
         host, path = parse_location(location)
         raise ArgumentError, 'paths need to start with /' if path[0] != '/'
-        path_prefix = Pathname.new(path).cleanpath.to_s
+        path_prefix = Pathname.new(path).cleanpath.to_s.chomp('/')
 
         ip_masks = ip_masks.map { |addr| addr.is_a?(IPAddr) ? addr : IPAddr.new(addr) }
 
