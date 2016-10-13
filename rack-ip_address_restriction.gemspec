@@ -8,6 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Rack::IpAddressRestriction::VERSION
   spec.authors       = ["koshigoe"]
   spec.email         = ["koshigoeb@gmail.com"]
+  spec.license       = 'MIT'
 
   spec.summary       = %q{Restrict access by IP Address.}
   spec.description   = %q{Inspired by Rack::Access provided by https://github.com/rack/rack-contrib.}
