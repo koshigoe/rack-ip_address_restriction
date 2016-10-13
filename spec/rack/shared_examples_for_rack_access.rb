@@ -58,6 +58,7 @@ shared_examples_for 'Rack::Access' do
 
     context 'access to "/a" from 127.0.0.1' do
       let(:remote_addr) { '127.0.0.1' }
+      let(:path) { '/a' }
 
       it_behaves_like 'denied'
     end
